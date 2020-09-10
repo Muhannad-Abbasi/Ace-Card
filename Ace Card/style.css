@@ -1,0 +1,123 @@
+.L-heart{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: auto;
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    right: 600px;
+    bottom: 400px;
+    transform: rotate(-45deg);
+}
+
+.L-heart::before{
+    content: "";
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: 0;
+}
+
+.L-heart::after{
+    content: "";
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 25px;
+}
+
+.C-heart{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transform: rotate(-45deg);
+}
+
+.C-heart::before{
+    content: "";
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: -50px;
+    left: 0px;
+}
+
+.C-heart::after{
+    content: "";
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+    top: 0px;
+    left: 50px;
+}
+
+.R-heart{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    margin: auto;
+    top: 400px;
+    left: 600px;
+    right: 10px;
+    bottom: 2px;
+    transform: rotate(-45deg);
+}
+
+.R-heart::before{
+    content: "";
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 0;
+}
+
+.R-heart::after{
+    content: "";
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: -25px;
+}
+
+.left-a{
+    color: red;
+    font-size: 50px;
+    position: absolute;
+    margin: auto;
+    top: 2px;
+    left: 20px;
+}
+
+.right-a{
+    color: red;
+    font-size: 50px;
+    position: absolute;
+    margin: auto;
+    bottom: 2px;
+    right: 20px;
+    transform: rotate(-180deg);
+}
